@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2551760220B2A56100413C8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2551760120B2A56100413C8C /* AppDelegate.swift */; };
+		2551760920B2A56100413C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2551760820B2A56100413C8C /* Assets.xcassets */; };
+		2551760C20B2A56100413C8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2551760A20B2A56100413C8C /* LaunchScreen.storyboard */; };
+		2551761420B2A6B500413C8C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2551761320B2A6B500413C8C /* GoogleService-Info.plist */; };
+		2551761A20B2A9C200413C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2551761520B2A9C200413C8C /* Main.storyboard */; };
+		2574527C20B2BE5800B52D93 /* AmbulanceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2574527820B2BE5800B52D93 /* AmbulanceTableViewController.swift */; };
+		2574527D20B2BE5800B52D93 /* AcceptRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2574527920B2BE5800B52D93 /* AcceptRequestViewController.swift */; };
+		2574527E20B2BE5800B52D93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2574527A20B2BE5800B52D93 /* ViewController.swift */; };
+		2574527F20B2BE5800B52D93 /* PatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2574527B20B2BE5800B52D93 /* PatientViewController.swift */; };
+		C49E91B196ADFCEA1BFDA88F /* Pods_AmbulanceTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73425827DB265CE0964855AF /* Pods_AmbulanceTracker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		255175FE20B2A56100413C8C /* AmbulanceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmbulanceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2551760120B2A56100413C8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2551760820B2A56100413C8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2551760B20B2A56100413C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2551760D20B2A56100413C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2551761320B2A6B500413C8C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2551761520B2A9C200413C8C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2574527820B2BE5800B52D93 /* AmbulanceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmbulanceTableViewController.swift; sourceTree = "<group>"; };
+		2574527920B2BE5800B52D93 /* AcceptRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcceptRequestViewController.swift; sourceTree = "<group>"; };
+		2574527A20B2BE5800B52D93 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2574527B20B2BE5800B52D93 /* PatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientViewController.swift; sourceTree = "<group>"; };
+		73425827DB265CE0964855AF /* Pods_AmbulanceTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmbulanceTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8564A6123C8F81490A6BAFAB /* Pods-AmbulanceTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmbulanceTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmbulanceTracker/Pods-AmbulanceTracker.release.xcconfig"; sourceTree = "<group>"; };
+		E8EBD141643FB0EDFDD91534 /* Pods-AmbulanceTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmbulanceTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmbulanceTracker/Pods-AmbulanceTracker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		255175FB20B2A56100413C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49E91B196ADFCEA1BFDA88F /* Pods_AmbulanceTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D163BFA757C940985CE3C93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73425827DB265CE0964855AF /* Pods_AmbulanceTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		255175F520B2A56100413C8C = {
+			isa = PBXGroup;
+			children = (
+				2551760020B2A56100413C8C /* AmbulanceTracker */,
+				255175FF20B2A56100413C8C /* Products */,
+				B2DAF1ED6DDCBC5B0554E48D /* Pods */,
+				1D163BFA757C940985CE3C93 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		255175FF20B2A56100413C8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				255175FE20B2A56100413C8C /* AmbulanceTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2551760020B2A56100413C8C /* AmbulanceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				2551760120B2A56100413C8C /* AppDelegate.swift */,
+				2551761520B2A9C200413C8C /* Main.storyboard */,
+				2574527920B2BE5800B52D93 /* AcceptRequestViewController.swift */,
+				2574527820B2BE5800B52D93 /* AmbulanceTableViewController.swift */,
+				2574527B20B2BE5800B52D93 /* PatientViewController.swift */,
+				2574527A20B2BE5800B52D93 /* ViewController.swift */,
+				2551760820B2A56100413C8C /* Assets.xcassets */,
+				2551760A20B2A56100413C8C /* LaunchScreen.storyboard */,
+				2551761320B2A6B500413C8C /* GoogleService-Info.plist */,
+				2551760D20B2A56100413C8C /* Info.plist */,
+			);
+			path = AmbulanceTracker;
+			sourceTree = "<group>";
+		};
+		B2DAF1ED6DDCBC5B0554E48D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8EBD141643FB0EDFDD91534 /* Pods-AmbulanceTracker.debug.xcconfig */,
+				8564A6123C8F81490A6BAFAB /* Pods-AmbulanceTracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		255175FD20B2A56100413C8C /* AmbulanceTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2551761020B2A56100413C8C /* Build configuration list for PBXNativeTarget "AmbulanceTracker" */;
+			buildPhases = (
+				8BC67976C248EB903FCD22DE /* [CP] Check Pods Manifest.lock */,
+				255175FA20B2A56100413C8C /* Sources */,
+				255175FB20B2A56100413C8C /* Frameworks */,
+				255175FC20B2A56100413C8C /* Resources */,
+				5811CE8E6A7BC193AE185385 /* [CP] Embed Pods Frameworks */,
+				90991734F49ED1C83DD8911C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmbulanceTracker;
+			productName = AmbulanceTracker;
+			productReference = 255175FE20B2A56100413C8C /* AmbulanceTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		255175F620B2A56100413C8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Medhatm3bd;
+				TargetAttributes = {
+					255175FD20B2A56100413C8C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 255175F920B2A56100413C8C /* Build configuration list for PBXProject "AmbulanceTracker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 255175F520B2A56100413C8C;
+			productRefGroup = 255175FF20B2A56100413C8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				255175FD20B2A56100413C8C /* AmbulanceTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		255175FC20B2A56100413C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2551760C20B2A56100413C8C /* LaunchScreen.storyboard in Resources */,
+				2551761420B2A6B500413C8C /* GoogleService-Info.plist in Resources */,
+				2551760920B2A56100413C8C /* Assets.xcassets in Resources */,
+				2551761A20B2A9C200413C8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5811CE8E6A7BC193AE185385 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmbulanceTracker/Pods-AmbulanceTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BC67976C248EB903FCD22DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90991734F49ED1C83DD8911C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmbulanceTracker/Pods-AmbulanceTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		255175FA20B2A56100413C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2574527F20B2BE5800B52D93 /* PatientViewController.swift in Sources */,
+				2551760220B2A56100413C8C /* AppDelegate.swift in Sources */,
+				2574527D20B2BE5800B52D93 /* AcceptRequestViewController.swift in Sources */,
+				2574527E20B2BE5800B52D93 /* ViewController.swift in Sources */,
+				2574527C20B2BE5800B52D93 /* AmbulanceTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2551760A20B2A56100413C8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2551760B20B2A56100413C8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2551760E20B2A56100413C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2551760F20B2A56100413C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2551761120B2A56100413C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8EBD141643FB0EDFDD91534 /* Pods-AmbulanceTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75W46TW7GG;
+				INFOPLIST_FILE = AmbulanceTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = medhat.AmbulanceTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2551761220B2A56100413C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8564A6123C8F81490A6BAFAB /* Pods-AmbulanceTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75W46TW7GG;
+				INFOPLIST_FILE = AmbulanceTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = medhat.AmbulanceTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		255175F920B2A56100413C8C /* Build configuration list for PBXProject "AmbulanceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2551760E20B2A56100413C8C /* Debug */,
+				2551760F20B2A56100413C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2551761020B2A56100413C8C /* Build configuration list for PBXNativeTarget "AmbulanceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2551761120B2A56100413C8C /* Debug */,
+				2551761220B2A56100413C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 255175F620B2A56100413C8C /* Project object */;
+}
